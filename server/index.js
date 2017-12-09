@@ -9,4 +9,4 @@ app
   .use(cors())
   .use(bodyParser())
   .use(router.routes())
-  .listen(8080)
+  .listen(80)
